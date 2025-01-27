@@ -1,3 +1,4 @@
+import TransferList from "./TransferList";
 import "./App.css";
 import Cart from "./components/Cart";
 import Form from "./components/Form";
@@ -8,12 +9,12 @@ import Todo from "./Todo";
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
       {/* <Test/> */}
       {/* <TestChild/> */}
       {/* <Form />
       <Cart /> */}
-      <Todo/>
+      {/* <Todo /> */}
+      <TransferList />
     </div>
   );
 }
